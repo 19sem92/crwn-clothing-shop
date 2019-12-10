@@ -1,0 +1,3 @@
+export const CartActionTypes = {
+  TOGGLE_DROPDOWN_SHOW_STATUS: "TOGGLE_DROPDOWN_SHOW_STATUS"
+};
