@@ -9,7 +9,6 @@ import CollectionPreview from "../collection-preview/collection-preview.componen
 import "./collections-overview.styles.scss";
 
 const CollectionsOverview = ({ collections }) => {
-  console.log(collections, "RTR");
   return (
     <div className="collections-overview">
       {Object.keys(collections).map(key => (
